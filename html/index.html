@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>page profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="../image/github-mark.svg" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+  <div class ="header2">
+    <div class="part1">
+      <i class="fa-solid fa-bars fa-xl" id="hampurgar-menue" style="color: #ffffff;"></i>
+      <a href="http://"><img src="../image/github-mark-white.png" alt="logo" id="logo"/></a>
+      <i class="fa-regular fa-bell" style="color: #ffffff"></i>
+    </div>
+    <div class="part2" id="list">
+      <ul class="list-hampurgar">
+        <i class="fas fa-search icon-search" style="color: #656d76;" id="search-icon1"></i>
+        <input type="search" name="" class="search-mobile" id="search1" placeholder="search or jump to">
+        <li><a href="#">Pull request</a></li>
+        <li><a href="#">Issues></a></li>
+        <li><a href="#">Codespaces</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="compare.html">Comparison</a></li>
+      </ul>
+    </div>
+  </div>
+  <header>
+      <div class="logo-search">
+        <a href="http://"><img src="../image/github-mark-white.png" alt="logo" id="logo"/></a>
+        <form action="">
+          <i class="fas fa-search" style="color: #656d76; position: absolute; left: 42px; top: 10px" id="search-icon2"></i>
+          <input
+            type="search"
+            name=""
+            class="search"
+            id="search2"
+            placeholder="search or jump to"
+            style="padding-left: 35px"
+          />
+          <svg
+            style="position: absolute; right: 59%; top: 7px"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="20"
+            aria-hidden="true"
+            class="mr-1"
+          >
+            <path
+              fill="none"
+              stroke="#979A9C"
+              opacity=".4"
+              d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"
+            ></path>
+            <path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path>
+          </svg>
+        </form>
+        <nav>
+          <ul>
+            <li><a href="#">Pull request</a></li>
+            <li><a href="#">Issues</a></li>
+            <li><a href="#">Codespaces</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="compare.html">Comparison</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="right-icons">
+        <i id="mode" class="fa-sharp fa-solid fa-circle-half-stroke" style="color: #ffffff;"></i>
+        <i class="fa-regular fa-bell" style="color: #ffffff"></i>
+        <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+        <i class="fa-solid fa-caret-down" style="color: #ffffff"></i>
+        <div id="user-area">
+          <img
+            src="../image/github.com_.png"
+            alt=""
+            srcset=""
+            id="user"
+          />
+          <i class="fa-solid fa-caret-down" style="color: #ffffff"></i>
+        </div>
+      </div>
+    </header>
+    <!-- ------------------------------------------------------- -->
+    <!-- main content -->
+    <main>
+      <div class="wrap-content">
+        <div class="content-bar">
+          <span class="content" id="overview">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-book UnderlineNav-octicon hide-sm"
+            >
+              <path
+                d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"
+              ></path>
+            </svg>
+            Overview
+          </span>
+          <span class="content" id="repositories">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-repo UnderlineNav-octicon hide-sm"
+            >
+              <path
+                d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+              ></path>
+            </svg>
+            Repositories
+          </span>
+          <span class="content" id="projects">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-table UnderlineNav-octicon hide-sm"
+            >
+              <path
+                d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"
+              ></path>
+            </svg>
+            projects
+          </span>
+          <span class="content" id="packages">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-package UnderlineNav-octicon hide-sm"
+            >
+              <path
+                d="m8.878.392 5.25 3.045c.54.314.872.89.872 1.514v6.098a1.75 1.75 0 0 1-.872 1.514l-5.25 3.045a1.75 1.75 0 0 1-1.756 0l-5.25-3.045A1.75 1.75 0 0 1 1 11.049V4.951c0-.624.332-1.201.872-1.514L7.122.392a1.75 1.75 0 0 1 1.756 0ZM7.875 1.69l-4.63 2.685L8 7.133l4.755-2.758-4.63-2.685a.248.248 0 0 0-.25 0ZM2.5 5.677v5.372c0 .09.047.171.125.216l4.625 2.683V8.432Zm6.25 8.271 4.625-2.683a.25.25 0 0 0 .125-.216V5.677L8.75 8.432Z"
+              ></path>
+            </svg>
+            Packages
+          </span>
+          <span class="content" id="stars">
+            <svg
+              aria-hidden="true"
+              height="16"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="16"
+              data-view-component="true"
+              class="octicon octicon-star UnderlineNav-octicon hide-sm"
+            >
+              <path
+                d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"
+              ></path>
+            </svg>
+            Stars
+          </span>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------- -->
+      <div class="wrap">
+        <div class="image-name">
+          <img src="../image/empty.jfif" alt="user-photo" id="user-photo"/>
+          <div class="wrap-name">
+            <h1 class="name" id="user-name">
+              null<br /><span id="name"
+                >null · him/her</span
+              >
+            </h1>
+          </div>
+        </div>
+        <!-- edit div -->
+        <div class="edit">
+          <button>edit profile</button>
+          <h4>
+            <span id="num-followers">null</span
+            ><span id="followers">followers</span>.<span id="num-following"
+              >null</span
+            ><span id="following">following</span>
+          </h4>
+          <div class="address-wrap">
+            <h4 id = "location">
+              <span class="country" id="country">null</span>,
+              <span id="city">null</span>
+            </h4>
+            <h4 id="time">
+              <span id="hour">null</span>:<span id="min">null</span
+              ><span>null</span>-<span id="hour-utc">null</span>:<span id="min-utc"
+                >null</span
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+        <div class="card">
+          <div class="repo">
+            <a href="http://">null</a>
+            <span>null</span>
+          </div>
+          <div class="type-lang">
+            <span></span>
+            <h3 class="lang">null</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="repo">
+            <a href="http://">null</a>
+            <span>null</span>
+          </div>
+          <div class="type-lang">
+            <span></span>
+            <h3 class="lang">null</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="repo">
+            <a href="http://">null</a>
+            <span>null</span>
+          </div>
+          <div class="type-lang">
+            <span></span>
+            <h3 class="lang">null</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="repo">
+            <a href="http://">null</a>
+            <span>null</span>
+          </div>
+          <div class="type-lang">
+            <span></span>
+            <h3 class="lang">null</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="repo">
+            <a href="http://">null</a>
+            <span>null</span>
+          </div>
+          <div class="type-lang">
+            <span></span>
+            <h3 class="lang">null</h3>
+          </div>
+        </div>
+        <div class="card">
+          <div class="repo">
+            <a href="http://">null</a>
+            <span>null</span>
+          </div>
+          <div class="type-lang">
+            <span class="repo"></span>
+            <h3 class="lang">null</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="copy">
+        <svg
+          aria-hidden="true"
+          height="24"
+          viewBox="0 0 16 16"
+          version="1.1"
+          width="24"
+          data-view-component="true"
+          class="octicon octicon-mark-github"
+        >
+          <path
+            d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+          ></path>
+        </svg>
+        <span class="copy-right">© 2023 GitHub, Inc.</span>
+      </div>
+      <div>
+        <ul>
+          <li><a href="http://">Term</a></li>
+          <li><a href="http://">Privacy</a></li>
+          <li><a href="http://">Security</a></li>
+          <li><a href="http://">Status</a></li>
+          <li><a href="http://">Docs</a></li>
+          <li><a href="http://">Contact GitHub</a></li>
+          <li><a href="http://">Pricing</a></li>
+          <li><a href="http://">API</a></li>
+          <li><a href="http://">Training</a></li>
+          <li><a href="http://">Blog</a></li>
+          <li><a href="http://">About</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
