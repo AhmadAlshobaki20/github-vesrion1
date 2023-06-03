@@ -22,3 +22,7 @@ Hello if you whould like to see the result of mainpage link you should put any u
 # Compare page result
 
 ![compare](https://github.com/AhmadAlshobaki20/github-vesrion1/assets/127348872/9cce0af3-978a-4144-91e4-1bd51adb4172)
+
+Enjoy it 
+
+Thanks 
