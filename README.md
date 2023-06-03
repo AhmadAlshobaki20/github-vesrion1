@@ -5,6 +5,6 @@ mainpage : https://ahmadalshobaki20.github.io/github-vesrion1/html/index.html
 
 comparepage: https://ahmadalshobaki20.github.io/github-vesrion1/html/compare.html
 
-Hello if you hit the mainpage link you have to put any username insde the search field it will get all info about user that's happend when you hit on the search icon inside the search field.
+Hello if you whould like to see the result of mainpage link you should put any username insde the search field and hit on the search icon inside the search field that will give you ability to see the result 
 
-while purpose of compare page to compare between two github's users  
+The purpose of comparepage is to compare between two github's users that depends who have more repository and followers
